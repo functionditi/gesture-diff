@@ -1,0 +1,31 @@
+@font-face {
+font-family: 'Neue Montreal';
+src: url('NeueMontreal-Regular.otf') format('opentype');
+
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Neue Montreal';
+
+   background-color: rgba(245,245,245,1);
+    opacity: 1;
+    background-image: radial-gradient(#27df34 1.2px, rgba(245,245,245,1) 1.2px);
+    background-size: 18px 18px;
+}
+
+button{
+  font-family: 'Neue Montreal';
+  color: whitesmoke;
+  background-color: #056CF2;
+ padding: 10px;
+  margin-left: 5vw;
+  
+  border: none;
+  border-radius: 5px;
+}
+
+canvas {
+  display: block;
+}
